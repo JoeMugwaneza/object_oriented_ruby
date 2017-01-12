@@ -5,7 +5,7 @@ class Store
 		@item_color = item_color
 		@item_price = item_price
 
-		def item_name
+		#def item_name
 			@product_name
 		end 
 
