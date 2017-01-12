@@ -5,8 +5,16 @@ class Store
 		@item_color = item_color
 		@item_price = item_price
 
-		#def item_name
+		def item_name
 			@product_name
+		end 
+
+		def item_color
+			@item_color = item_color
+		end 
+
+		def item_price
+			@item_price = item_price
 		end 
 
 		def item_color=(item_color)
@@ -18,7 +26,7 @@ class Store
 		end 
 
 		def info
-			"#{item_name} #{@item_color} #{@item_price}"
+			"#{@product_name} #{@item_color} #{@item_price}"
 		end 
 
 	end 
